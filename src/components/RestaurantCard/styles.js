@@ -34,5 +34,12 @@ export const Address = styled.span `
   color: ${(props) => props.theme.colors.text};
   font-size: 16px;
   line-height: 19px;
-  margin-bottom: 10px;
+  margin: 10px 0 10px 0;
+`;
+
+export const RestaurantPhoto = styled.img `
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
 `;
